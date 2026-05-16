@@ -5,7 +5,7 @@ from datasets import Dataset
 import random
 
 dataset_root = "../raw_aug"
-cache_dir = "./patient_cache"
+cache_dir = "../patient_cache"
 instruction = """Analyze this intraoral image for visual signs of xerostomia. 
 Reply ONLY with the word "Yes" or "No". No explanations."""
 

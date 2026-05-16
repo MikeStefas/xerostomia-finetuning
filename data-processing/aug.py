@@ -14,8 +14,8 @@ transform = A.Compose([
     ], p=0.3),
 ])
 
-input = "./raw"
-output = "./raw_aug"
+input = "../raw"
+output = "../raw_aug"
 augX = 5  
 
 if not os.path.exists(output):
